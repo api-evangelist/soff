@@ -1,22 +1,58 @@
 aid: soff
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/soff.png
 name: Soff
-description: Soff is a company surfaced as a portfolio company of general-catalyst and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Soff is an AI-powered quoting platform for U.S. distributors that turns
+  inbound RFQs into won deals. It automatically captures requests for quotes from email,
+  generates instant quotes and PDFs, tracks quote performance (won vs. lost), logs
+  activity into ERP/CRM systems, and analyzes customer behavior and lost-deal reasons.
+  Backed by Y Combinator (S24) and General Catalyst, based in San Francisco, and SOC 2
+  Type II certified. As of this enrichment pass Soff publishes no public developer API,
+  documentation portal, or well-known discovery surface.
 url: https://raw.githubusercontent.com/api-evangelist/soff/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - general-catalyst
+- y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Quoting
+- Sales
+- Distribution
+- RFQ
+- Artificial Intelligence
+- ERP
+- CRM
+- SaaS
 apis: []
+common:
+- type: Website
+  url: https://soff.ai
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
+  notes: soff.ai confirmed (AI quoting for US distributors, YC S24, SOC 2 Type II);
+    no public API surface — /developers 404, docs.soff.ai NXDOMAIN, security.txt 404.
