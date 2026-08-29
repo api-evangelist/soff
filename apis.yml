@@ -31,6 +31,8 @@ description: Soff is an AI-powered quoting platform for U.S. distributors that t
   Type II certified. As of this enrichment pass Soff publishes no public developer API,
   documentation portal, or well-known discovery surface.
 url: https://raw.githubusercontent.com/api-evangelist/soff/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
